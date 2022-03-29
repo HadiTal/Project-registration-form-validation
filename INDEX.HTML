@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!-- Fontawesome icon -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- Fontawesome icon -->
+
+    <!--Link css Files---->
+    <link rel='stylesheet' type="text/css" href="css/Style.CSS" />
+    <!--Link css Files---->
+
+    <title>validation filed</title>
+</head>
+
+<body>
+
+    <div class="overlay display-overlay">
+        <div class="main">
+            <section class="center">
+                <div class="content">
+                    <div class="header">
+                        <h2>Hey! Welcome</h2>
+                        <label for="click" class="fa-solid fa-xmark"></label>
+                    </div>
+                    <div class="conatiner-tick"><label for="click" class="fa-solid fa-check"></label>
+                        <h2 class="heading-welcme">Thank You! 😃</h2>
+                    </div>
+                    <p class="text-dailog"> You are Now a New Member!
+                    </p>
+                    <div class="line"></div>
+                    <div class="container-btn-close">
+                        <label for="click" class="close-btn">Close</label>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <section class="main-wrapper">
+
+        <div class="form-row">
+
+            <div class="form-col-left">
+
+                <h2>Register Now!</h2>
+
+                <form class="register-form">
+
+
+                    <div class="form-item-list">
+
+                        <div class="form-item">
+                            <label class="firstName" for="firstName">First Name</label>
+                            <div class="form-group">
+                                <span><i class = "fas fa-user"></i></span>
+                                <input type="text" class="form-control" id='firstName' placeholder="first Name" />
+                            </div>
+                        </div>
+                        <div class="form-item">
+                            <label class="lastname" for="lastname">Last Name</label>
+                            <div class="form-group">
+                                <span><i class = "fas fa-user"></i></span>
+                                <input type="text" class="form-control" id='lastName' placeholder="last Name" />
+                            </div>
+                        </div>
+                        <div class="form-item">
+                            <label class="email" for="email">Email Address</label>
+                            <div class="form-group">
+                                <span><i class = "fas fa-envelope"></i></span>
+                                <input type="text" class="form-control" id='email' placeholder="Email Address" />
+                            </div>
+                        </div>
+
+                        <div class="form-item">
+                            <label class="phonenumber" for="phonenumber">Phone Number</label>
+                            <div class="form-group">
+                                <span><i class = "fas fa-phone-alt"></i></span>
+                                <input type="text" class="form-control" id='phonenumber' placeholder="XXXX-XXX-XXXX" />
+                            </div>
+                        </div>
+
+                        <div class="form-item">
+                            <label class="username" for="username">user Name</label>
+                            <div class="form-group">
+                                <i class="fa-solid fa-user"></i> <input type="text" class="form-control" id='username' placeholder="user Name" />
+                            </div>
+                        </div>
+
+                        <div class="form-item">
+                            <label class="confirm-password" for="password"> Password</label>
+                            <div class="form-group">
+                                <span><i class = "fas fa-lock"></i></span>
+                                <input type="password" class="form-control" id='password' placeholder="XXX-XXX-XXXX" />
+                                <i class="fa-solid fa-eye eye displey-eye"></i>
+                                <i class="fa-solid fa-eye-slash eye  "></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <span class="submission-status">
+                            <!-- text here -->
+                          </span>
+
+                    <button type="submit" class="submit-btn submit">
+                            register now
+                            <span><i class = "fas fa-long-arrow-alt-right  arrow"  ></i></span>
+                            <span class="container-spiiner displey-spinner"><img class="img-spiiner" src='images/Rolling-1s-200px (1).gif'/></span>
+                        </button>
+            </div>
+
+            <div class="form-col-right">
+
+                <h2>Already Registered?</h2>
+
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti voluptate adipisci deserunt laboriosam illum. Tempore quidem cum dolore, delectus nobis temporibus fugiat voluptatibus natus reiciendis.
+                </p>
+                <button type="button" id='login-btn'>Login
+                        <i class = "fas fa-long-arrow-alt-right"></i>
+                    </button>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!--Link Jquery Library js Files---->
+    <script src='JS/jquery-3.6.0.min.js'></script>
+    <!--Link Jquery Library js Files---->
+
+    <!--Link Bootstapt FrameWork js Files---->
+    <script src='JS/bootstrap.js'></script>
+    <!--Link Bootstapt FrameWork js Files---->
+
+    <!--Link js  File---->
+    <script src='JS/Main.JS'></script>
+    <!--Link js  File---->
+
+</body>
+
+</html>
